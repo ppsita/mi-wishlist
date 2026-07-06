@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pepesita | Mi lista de deseos N.º 24</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HERO ================= -->
+
+    <header class="hero">
+
+        <img src="images/portada.jpg" alt="Pepesita" class="hero-image">
+
+        <div class="hero-text">
+
+            <p class="hero-small">PEPESITA</p>
+
+            <h1>Mi lista de deseos</h1>
+
+            <h2>N.º 24 </h2>
+
+            <p class="hero-description">
+                Tu compañía ya es un regalo para mí, pero si deseas sorprenderme con un detalle,
+                preparé esta lista con mucho cariño. 🤍
+            </p>
+
+            <a href="#wishlist" class="hero-button">
+                Ver mi wishlist
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- ================= CONTADOR ================= -->
+
+    <section class="stats">
+
+        <div class="stat">
+            <span id="total">20</span>
+            <p>Deseos</p>
+        </div>
+
+        <div class="stat">
+            <span id="reserved">0</span>
+            <p>Reservados</p>
+        </div>
+
+        <div class="stat">
+            <span id="available">20</span>
+            <p>Disponibles</p>
+        </div>
+
+    </section>
+
+    <!-- ================= WISHLIST ================= -->
+
+    <main id="wishlist" class="container">
+
+        <div class="section-title">
+
+            <p>Wishlist</p>
+
+            <h2>Mis deseos 🤍</h2>
+
+        </div>
+
+        <!-- Aquí se crearán automáticamente las tarjetas -->
+        <div id="products" class="products"></div>
+
+    </main>
+    <!-- ================= INSPIRACIÓN ================= -->
+
+<section class="inspiration">
+
+    <div class="section-title">
+
+        <p>Inspiración</p>
+
+        <h2>Esto también me encanta</h2>
+
+    </div>
+
+    <p class="inspiration-text">
+        No todo tenía que estar en la lista. Aquí te dejo un pequeño tablero con cosas que me gustan y que también me harían muy feliz. Quizás encuentres aquí el regalo perfecto. 🤍
+    </p>
+
+    <div class="inspiration-board">
+
+        <img src="images/inspo1.jpg" alt="">
+        <img src="images/inspo2.jpg" alt="">
+        <img src="images/inspo3.jpg" alt="">
+        <img src="images/inspo4.jpg" alt="">
+        <img src="images/inspo5.jpg" alt="">
+        <img src="images/inspo6.jpg" alt="">
+        <img src="images/inspo7.jpg" alt="">
+        <img src="images/inspo8.jpg" alt="">
+        <img src="images/inspo9.jpg" alt="">
+        <img src="images/inspo10.jpg" alt="">
+        <img src="images/inspo11.jpg" alt="">
+        <img src="images/inspo12.jpg" alt="">
+        <img src="images/inspo13.jpg" alt="">
+        <img src="images/inspo14.jpg" alt="">
+        <img src="images/inspo15.jpg" alt="">
+        <img src="images/inspo16.jpg" alt="">
+        <img src="images/inspo17.jpg" alt="">
+        <img src="images/inspo18.jpg" alt="">
+        <img src="images/inspo19.jpg" alt="">
+        <img src="images/inspo20.jpg" alt="">
+        <img src="images/inspo21.jpg" alt="">
+        <img src="images/inspo22.jpg" alt="">
+        <img src="images/inspo23.jpg" alt="">
+        <img src="images/inspo24.jpg" alt="">
+        <img src="images/inspo25.jpg" alt="">
+        <img src="images/inspo26.jpg" alt="">
+        <img src="images/inspo27.jpg" alt="">
+        <img src="images/inspo28.jpg" alt="">
+        <img src="images/inspo29.jpg" alt="">
+        <img src="images/inspo30.jpg" alt="">
+
+    </div>
+
+</section>
+
+    <!-- ================= MODAL ================= -->
+
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <h3>Reservar regalo 🎁</h3>
+
+            <p>Escribe tu nombre para reservar este regalo.</p>
+
+            <input
+                type="text"
+                id="guestName"
+                placeholder="Tu nombre">
+
+            <div class="modal-buttons">
+
+                <button id="cancelReservation">
+                    Cancelar
+                </button>
+
+                <button id="confirmReservation">
+                    Confirmar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            Gracias por ser parte de este momento tan especial 🤍
+        </p>
+
+    </footer>
+
+    <!-- Firebase (lo agregaremos después) -->
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
